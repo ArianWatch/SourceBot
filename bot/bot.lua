@@ -219,134 +219,112 @@ function create_config( )
     "download_media",
     "invite"
     },
-    sudo_users = {67559249,71951412,0,tonumber(our_id)},--Sudo users
+    sudo_users = {137984481},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[TheMelowdi v2
 
-https://github.com/SEEDTEAM/TeleSeed
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-]],
     help_text = [[
 Commands list :
 
-!kick [username|id]
-You can also do it by reply
+!kick [username|id]Ⓜ
+You can also do it by replyⓂ
 
-!ban [ username|id]
-You can also do it by reply
+!ban [ username|id]❎
+You can also do it by reply❎
 
-!unban [id]
-You can also do it by reply
+!unban [id]🚫
+You can also do it by reply🚫
 
-!who
-Members list
+!who✳
+Members list✳
 
-!modlist
-Moderators list
+!modlist➕
+Moderators list➕
 
-!promote [username]
-Promote someone
+!promote [username]➖
+Promote someone➖
 
-!demote [username]
-Demote someone
+!demote [username]💡
+Demote someone💡
 
-!kickme
-Will kick user
+!kickme💫
+Will kick user💫
 
-!about
-Group description
+!about🔥
+Group description🔥
 
-!setphoto
-Set and locks group photo
+!setphoto➗
+Set and locks group photo➗
 
-!setname [name]
-Set group name
+!setname [name]💥
+Set group name💥
 
-!rules
-Group rules
+!rules🔂
+Group rules🔂
 
-!id
-return group id or user id
+!id🔏
+return group id or user id🔏
 
-!help
+!help🆑
 
-!lock [member|name]
-Locks [member|name] 
+!lock [member|name]🔒
+Locks [member|name] 🔒
 
-!unlock [member|name|photo]
-Unlocks [member|name|photo]
+!unlock [member|name|photo]🔓
+Unlocks [member|name|photo]🔓
 
-!set rules <text>
-Set <text> as rules
+!set rules <text>⚓
+Set <text> as rules⚓
 
-!set about <text>
-Set <text> as about
+!set about <text>💈
+Set <text> as about💈
 
-!settings
-Returns group settings
+!settings🔧
+Returns group settings🔧
 
-!newlink
-create/revoke your group link
+!newlink🔍
+create/revoke your group link🔍
 
-!link
-returns group link
+!link🔏
+returns group link🔏
 
-!owner
-returns group owner id
+!owner🔑
+returns group owner id🔑
 
-!setowner [id]
-Will set id as owner
+!setowner [id]🔐
+Will set id as owner🔐
 
-!setflood [value]
-Set [value] as flood sensitivity
+!setflood [value]🔥
+Set [value] as flood sensitivity🔥
 
-!stats
-Simple message statistics
+!stats💨
+Simple message statistics💨
 
-!save [value] <text>
-Save <text> as [value]
+!save [value] <text>💢
+Save <text> as [value]💢
 
-!get [value]
-Returns text of [value]
+!get [value]➿
+Returns text of [value]➿
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+!clean [modlist|rules|about]♻
+Will clear [modlist|rules|about] and set it to nil♻
 
-!res [username]
-returns user id
-"!res @username"
+!res [username]⛔
+returns user id⛔
+"!res @username"⛔
 
-!log
-will return group logs
+!log📶
+will return group logs📶
 
-!banlist
-will return group ban list
+!banlist❌
+will return group ban list❌
 
-**U can use both "/" and "!" 
+And More Plugins 😆
 
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+Created By @Dawsh_Arian ✌
 
 ]]
 
